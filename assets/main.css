@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container-1 {
+   border: 2px solid black;
+   padding: 0%;
+}
+
+.container-2 {
+    border: 2px solid black;
+    margin-top: 2%;
+}
+
+p {
+    background-color: blue;
+    color: white;
+    font-size: large;
+    padding: 5px 15px;
+    margin: 0;
+}
+
+.form-group {
+    margin: 1rem;
+}
+
+.jumbotron {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    margin: 1rem;
+}
