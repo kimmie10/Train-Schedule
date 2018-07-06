@@ -14,7 +14,7 @@ var config = {
 
 firebase.initializeApp(config);
 
-let database = firebase.database();
+let dataRef = firebase.database();
 
 let trainName = "";
 let destination = "";
@@ -51,7 +51,7 @@ $(".btn").on("click", function (event) {
         nextArrival = currentTime;
     }
 
-    database.ref().set({
+    dataRef.ref().push({
         trainName: trainName,
         destination: destination,
         frequency: frequency,
